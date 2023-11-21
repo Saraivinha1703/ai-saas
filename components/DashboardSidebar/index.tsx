@@ -4,7 +4,7 @@ import clsx from 'clsx';
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { tools } from '../Tools/tools';
+import { tools } from '../Tools';
 
 type DashboardSidebarProps = React.DetailedHTMLProps<
   React.HTMLAttributes<HTMLDivElement>,
