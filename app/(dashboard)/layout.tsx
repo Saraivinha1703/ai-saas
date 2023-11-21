@@ -7,13 +7,12 @@ type DashboardLayoutProps = DetailedHTMLProps<
   HTMLDivElement
 >;
 
-export default function DashboardLayout({
-  children,
-  ...props
-}: DashboardLayoutProps) {
+export default function DashboardLayout({ children }: DashboardLayoutProps) {
   return (
     <div className="h-full relative">
-      <DashboardSidebar>Hello</DashboardSidebar>
+      <div className="hidden h-full md:flex md:w-72 md:flex-col md:fixed md:inset-y-0 z-50 bg-gray-900 text-white">
+        <DashboardSidebar />
+      </div>
       <main className="md:pl-72">
         <Navbar />
         {children}
