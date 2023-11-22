@@ -14,10 +14,10 @@ export default function Dashboard() {
           Explore the Power of AI
         </h2>
         <p className="text-muted-foreground font-light text-sm md:text-lg text-center">
-          Chat, make images, music, videos and codes with our AIs
+          Chat, make images, music, videos and codes with our AI
         </p>
       </div>
-      <div className="px-4 md:px-20 lg:px-32 space-y-4">
+      <div className="px-4 md:px-20 lg:px-32 space-y-4 pb-12">
         {tools.map(tool => (
           <Card
             onClick={() => router.push(tool.href)}

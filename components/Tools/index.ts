@@ -1,5 +1,5 @@
 import {
-  Code,
+  Code2,
   ImageIcon,
   LayoutDashboard,
   MessageSquare,
@@ -46,7 +46,7 @@ export const tools = [
   },
   {
     label: 'Code Generator',
-    icon: Code,
+    icon: Code2,
     href: '/code',
     color: 'text-green-700',
     bgColor: 'bg-green-700/10',
