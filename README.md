@@ -45,6 +45,8 @@ You can make all of this project by this [video](https://www.youtube.com/watch?v
 
 To handle authentication. It's not very wise to build your own authentication system nowadays, our user's information are very sensitive, so let some service handle that for you, which means you have more time to dedicated in the development of your product and no worries or responsability when it comes to your user's information.
 
+### [shadcn/ui](https://ui.shadcn.com/)
+
 ### [OpenAI (GPT-3.5-turbo)](https://platform.openai.com/docs/overview)
 
 ### [OpenAI (DALL-E)](https://platform.openai.com/docs/guides/images?context=node)
@@ -52,3 +54,9 @@ To handle authentication. It's not very wise to build your own authentication sy
 ### [Replicate (anotherjesse/zeroscope-v2-xl)](https://replicate.com/anotherjesse/zeroscope-v2-xl)
 
 ### [Replicate (riffusion/riffusion)](https://replicate.com/riffusion/riffusion)
+
+### [Prisma](https://www.prisma.io/)
+
+### SQL Server
+
+I'm using a Local SQL Server for this project. in the tutorial, he uses Planet Scale, which is a MySQL platform, however, in the date 23/11/2023, it requires a credit card to create a database even if you choose the free plan, so I decided to use a local server.
