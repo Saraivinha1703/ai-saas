@@ -67,7 +67,7 @@ export default function Code() {
       <div className="px-4 lg:px-8 flex items-center gap-x-3 mb-8">
         <div>
           <Heading
-            description="Ask for some code fro our AI :)"
+            description="Ask for some code from our AI :)"
             icon={Code2}
             title="Code"
             bgColor={'bg-green-700/10'}
