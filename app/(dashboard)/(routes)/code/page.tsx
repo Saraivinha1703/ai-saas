@@ -98,7 +98,7 @@ export default function Code() {
                       onChange={onChange}
                       disabled={isLoading}
                       className="border-0 outline-none focus-visible:ring-0 focus-visible:ring-transparent"
-                      placeholder="Ask a question."
+                      placeholder="Ask for a code."
                     />
                   </FormControl>
                 </FormItem>
@@ -120,7 +120,7 @@ export default function Code() {
             <div
               key={message.content?.toString()}
               className={cn(
-                'p-8 w-full flex items-start gap-x-8 rounded-lg',
+                'p-2 md:p-5 lg:p-8 w-full flex items-start gap-x-2 md:gap-x-5 lg:gap-x-8 rounded-lg',
                 message.role === 'user'
                   ? 'bg-white border border-black/10'
                   : 'bg-muted'
@@ -129,7 +129,7 @@ export default function Code() {
               {message.role === 'user' ? <UserAvatar /> : <AssistantAvatar />}
               <ReactMarkdown
                 components={{
-                  pre: ({ node, ...props }) => (
+                  pre: ({ ...props }) => (
                     <div className="overflow-auto w-full my-2 bg-black/10 p-2 rounded-lg">
                       <pre {...props} />
                     </div>
